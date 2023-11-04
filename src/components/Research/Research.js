@@ -23,15 +23,10 @@ function Research() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ResearchCard
-              title="Workload Balancing"
-              description="Distribute tasks across a simulated network."
-              bullets={["Use ML to predict GPU temperature", "Model GPU-intensive server workloads", "Reduce datacenter energy consumption", "Lead writer of two research papers"]}
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ResearchCard
               title="Boracle"
+              affiliation="ARCS Center"
+              dates="Jan 2023 &mdash; Now"
+              projectLink="https://arcs.center/boracle-the-oracle-for-your-body/"
               description="Using smart tech to improve health outcomes."
               bullets={["Subteam leader for ReactJS webapp", "Compile smart-earbud market research", "Storyboarding, use cases, UI design", "Qualitative coding and data visualizations"]}
             />
@@ -39,7 +34,21 @@ function Research() {
 
           <Col md={4} className="project-card">
             <ResearchCard
+              title="Workload Balancing"
+              affiliation="CSUN REU"
+              dates="Jun 2023 &mdash; Now"
+              projectLink="https://www.csun.edu/reu/research-projects"
+              description="Distributing tasks across a simulated network."
+              bullets={["Use ML to predict GPU temperature", "Model GPU-intensive server workloads", "Reduce datacenter energy consumption", "Lead writer of two research papers"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ResearchCard
               title="Proteus"
+              affiliation="ARCS Center"
+              dates="Sep 2023 &mdash; Now"
+              projectLink="https://arcs.center/design-and-development-of-a-domain-specific-language-dsl-based-on-hierarchical-state-machines-hsm-for-model-based-programming-mbp/"
               description="New prog. language to natively support HSMs."
               bullets={["Migrate test suite from C++ to Swift", "Create unit and end-to-end tests", "Track and resolve bugs in compiler", "Transpile Proteus to QPC library (in C)"]}
             />
@@ -50,8 +59,8 @@ function Research() {
           <strong className="purple">Publications</strong>
         </h2>
         <ol className="publications">
-          <li>M. Smith, L. Zhao, J. Cordova, X. Jiang, and M. Ebrahimi, “Energy-efficient gpu-intensive workload scheduling for data centers,” <span class="italic">IEEE International Conference on Machine Learning and Applications</span>, 2023, in press.</li>
-          <li>M. Smith, L. Zhao, J. Cordova, X. Jiang, and M. Ebrahimi, “Machine learning-based energy-efficient workload management for data centers,” <span class="italic">IEEE Consumer Communications & Networking Conference</span>, 2024, in press.</li>
+          <li>M. Smith, L. Zhao, J. Cordova, X. Jiang, and M. Ebrahimi, “Energy-efficient gpu-intensive workload scheduling for data centers,” <span className="italic">IEEE International Conference on Machine Learning and Applications</span>, 2023, in press.</li>
+          <li>M. Smith, L. Zhao, J. Cordova, X. Jiang, and M. Ebrahimi, “Machine learning-based energy-efficient workload management for data centers,” <span className="italic">IEEE Consumer Communications & Networking Conference</span>, 2024, in press.</li>
         </ol>
       </Container>
     </Container>

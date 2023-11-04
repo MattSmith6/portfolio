@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
-import SocialIcons from "./SocialIcons"
+import {
+  AiFillGithub,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
@@ -12,14 +14,38 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header" textAlign='center'>
+            <Col md={7} className="home-header">
               <h1 className="heading-name">
-                I'm
+                I'm 
                 <strong className="main-name"> Matthew Smith</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+              </div>
+
+              <p style={{ paddingLeft: '45px', fontSize: '25px' }}>Find me at:</p>
+              <div className="home-about-social">
+                <ul className="home-about-social-links">
+                  <li className="social-icons">
+                  <a
+                      href="https://github.com/MattSmith6"
+                      className="icon-colour  home-social-icons"
+                      onClick={() => alert('Clicked')}
+                  >
+                      <AiFillGithub />
+                  </a>
+                  </li>
+                  <li className="social-icons">
+                  <a
+                      href="https://www.linkedin.com/in/matthew-smith-67952a179/"
+                      className="icon-colour  home-social-icons"
+                      onClick={() => alert('Clicked')}
+                  >
+                      <FaLinkedinIn />
+                  </a>
+                  </li>
+                </ul>
               </div>
             </Col>
 
@@ -30,9 +56,6 @@ function Home() {
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
-            </Col>
-            <Col md={12} className="home-about-social">
-              <SocialIcons />
             </Col>
           </Row>
         </Container>

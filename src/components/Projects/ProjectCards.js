@@ -7,7 +7,9 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img style={{ paddingBottom: "10px" }} variant="top" src={props.imgPath} alt="card-img" />
+      <div style={{ alignItems: 'center' }}>
+        {props.icon}
+      </div>
       <Card.Body style={{ paddingTop: "0px" }}>
         <Card.Title style={{ fontWeight: "bold", fontSize: "24px" }}>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify", paddingTop: "10px"  }}>
@@ -16,8 +18,10 @@ function ProjectCards(props) {
         
         {!props.isBlog && props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+            <div style={{ display: 'flex', verticalAlign: 'middle', alignItems: 'center', textAlign: 'center' }}>
+              <BsGithub /> &nbsp;&nbsp;
+              {props.isBlog ? "Blog" : "GitHub"}
+            </div>
           </Button>
         )}
         
@@ -33,8 +37,10 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <div style={{ display: 'flex', verticalAlign: 'middle', alignItems: 'center', textAlign: 'center' }}>
+              <CgWebsite /> &nbsp;&nbsp;
+              {"Demos"}
+            </div>
           </Button>
         )}
       </Card.Body>

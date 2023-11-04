@@ -30,7 +30,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 className="project-heading" style={{ marginTop: '20px' }}>
           <strong className="purple">Techstack</strong>
         </h1>
 

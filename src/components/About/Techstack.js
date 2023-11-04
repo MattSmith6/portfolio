@@ -13,29 +13,28 @@ import {
 import {
   SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiMysql,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ alignItems: 'center', justifyContent: "center", paddingTop: "10px", paddingBottom: "20px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiJava style={{ display: 'inline-block' }}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiPython style={{ display: 'inline-block' }}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGit style={{ display: 'inline-block' }}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiFirebase className='tech-icon-images' />
       </Col>
     </Row>
   );

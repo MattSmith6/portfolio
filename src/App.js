@@ -32,16 +32,16 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}  width='100%' height='100%' position='relative'>
+      <div className="App fullscreen" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/portfolio" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/research" element={<Research />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/portfolio"/>} />
         </Routes>
         <Footer />
       </div>

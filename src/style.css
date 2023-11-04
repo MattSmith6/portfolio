@@ -12,6 +12,12 @@ html {
   );
 
   --imp-text-color: #c770f0;
+
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 .purple {
@@ -29,13 +35,15 @@ button:focus {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
   z-index: 999999;
   background-color: #0c0513;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: 100% 100%; 
+  height: 100vh;
 }
 
 #preloader-none {
@@ -208,11 +216,11 @@ button:focus {
 .publications {
   color: white;
   text-align: left;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .publications > li {
-  padding-bottom: 15px;
+  padding: 10px 0px;
 }
 
 .italic {
@@ -269,13 +277,12 @@ button:focus {
 }
 
 .home-section {
-  position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 150px !important;
+  padding-top: 80px !important;
 }
 
 .home-content {
@@ -351,14 +358,12 @@ button:focus {
 }
 
 .home-about-social {
-  text-align: center !important;
-  padding-top: 25px;
+  padding-left: 45px;
   color: white !important;
 }
 
 .home-about-social-links {
   justify-content: center !important;
-  padding-top: 15px !important;
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
@@ -548,22 +553,32 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-top: 160px !important;
+  padding-bottom: 35px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
+.project-icons {
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  align-items: center;
+}
+
 .tech-icons {
   font-size: 4.5em !important;
-  margin: 15px !important;
+  margin: 30px 15px 15px 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  justify-content: center !important;
   vertical-align: middle !important;
+  align-items: center !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+  display: flex !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
@@ -573,11 +588,6 @@ button:focus {
   .tech-icons {
     margin: 10px !important;
   }
-}
-
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
 }
 
 .quote-card-view {
