@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5a959c2f.css",
-    "main.js": "/portfolio/static/js/main.2a05da8e.js",
+    "main.css": "/portfolio/static/css/main.1fe5f416.css",
+    "main.js": "/portfolio/static/js/main.75c6f76a.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -14,16 +14,15 @@
     "static/media/chatify.png": "/portfolio/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/Resume - Matthew Smith.pdf": "/portfolio/static/media/Resume - Matthew Smith.f3acfd913968e11912d0.pdf",
-    "static/media/avatar.svg": "/portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
-    "main.5a959c2f.css.map": "/portfolio/static/css/main.5a959c2f.css.map",
-    "main.2a05da8e.js.map": "/portfolio/static/js/main.2a05da8e.js.map",
+    "main.1fe5f416.css.map": "/portfolio/static/css/main.1fe5f416.css.map",
+    "main.75c6f76a.js.map": "/portfolio/static/js/main.75c6f76a.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a959c2f.css",
-    "static/js/main.2a05da8e.js"
+    "static/css/main.1fe5f416.css",
+    "static/js/main.75c6f76a.js"
   ]
 }
