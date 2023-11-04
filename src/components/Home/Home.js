@@ -31,7 +31,6 @@ function Home() {
                   <a
                       href="https://github.com/MattSmith6"
                       className="icon-colour  home-social-icons"
-                      onClick={() => alert('Clicked')}
                   >
                       <AiFillGithub />
                   </a>
@@ -40,7 +39,6 @@ function Home() {
                   <a
                       href="https://www.linkedin.com/in/matthew-smith-67952a179/"
                       className="icon-colour  home-social-icons"
-                      onClick={() => alert('Clicked')}
                   >
                       <FaLinkedinIn />
                   </a>
