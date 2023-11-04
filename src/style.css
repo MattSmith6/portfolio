@@ -205,6 +205,20 @@ button:focus {
   width: 100%;
 }
 
+.publications {
+  color: white;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.publications > li {
+  padding-bottom: 15px;
+}
+
+.italic {
+  font-style: italic;
+}
+
 /* --------- */
 /* Home section */
 /* --------- */
@@ -467,11 +481,6 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
-.project-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
-}
 
 .blog-card {
   padding-top: 50px !important;
@@ -479,6 +488,10 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+}
+
+.uncentered {
+  text-align: left;
 }
 
 .blog-card-view {
@@ -494,18 +507,8 @@ button:focus {
   text-decoration: none !important;
 }
 
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
-}
-
 .card-img-top {
-  padding: 20px !important;
+  padding: 20px 20px 10px 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
 }
@@ -527,6 +530,7 @@ button:focus {
   background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
@@ -571,11 +575,6 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -700,12 +699,6 @@ button:focus {
   transition: 0.3s ease !important;
 }
 
-.like-btn:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-
 .animate-like {
   animation-name: likeAnimation;
   animation-fill-mode: forwards;
@@ -733,11 +726,6 @@ button:focus {
   text-align: center !important;
 }
 
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
 .fork-btn-inner::after {
   display: none !important;
 }
