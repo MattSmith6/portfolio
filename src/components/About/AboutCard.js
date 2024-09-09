@@ -8,15 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I'm a senior studying <span className="purple">Computer Science </span> 
-            and Mathematics at California State University, Northridge. I am currently applying to <span className="purple">grad school</span> to pursue a master's degree.
+            I'm a master's student studying <span className="purple">Computer Science</span> at California State University, Northridge. I received by B.S. in Computer Science and a minor in Mathematics with honors in May 2024.
             <br />
             <br />
             I am a:
           </p>
           <ul style={{ textAlign: "left" }}>
             <li><span className="purple">Developer</span> &mdash; years of experience in the game development industry </li>
-            <li><span className="purple">Researcher</span> &mdash; three active research projects, two publications</li>
+            <li><span className="purple">Researcher</span> &mdash; three active research projects, three publications</li>
             <li><span className="purple">Leader</span> &mdash; in project management and club event planning</li>
           </ul>
           <br />

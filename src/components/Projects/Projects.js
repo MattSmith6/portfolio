@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
 import { GiSpy, GiAxeSword } from "react-icons/gi";
+import { IoMdHammer } from "react-icons/io";
+
 
 function Projects() {
   return (
@@ -24,6 +25,16 @@ function Projects() {
               title="Spy Game"
               description="An app elimination game designed to be played on CSUN's campus. I created database schemas, user authentication with SRP-6, and encrypted communication channels."
               ghLink="https://github.com/MattSmith6/spygame-server"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              icon={<IoMdHammer className='project-icons' />}
+              isBlog={false}
+              title="RefRaff"
+              description="A basic programming language supporting structs, reference counted memory, function overloading, and Rust-like error messages. The compiler transpiles RefRaff into C."
+              ghLink="https://github.com/csun-comp430-s24/RefRaff"
             />
           </Col>
 
